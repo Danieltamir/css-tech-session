@@ -4,7 +4,7 @@ This project was generated with [Angular CLI]
 
 In order to run the application you will need to follow these steps:
 
-*1*.Install node latest version : https://nodejs.org/en/
+1.Install node latest version : https://nodejs.org/en/
 
 2.Install angular by running in command prompt : npm install -g @angular/cli
 
