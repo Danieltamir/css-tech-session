@@ -1,6 +1,12 @@
 # CSS3
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+This project was generated with [Angular CLI]
+In order to run the application you will need to follow these steps:
+1.Install node latest version : https://nodejs.org/en/
+2.Install angular by running in command prompt : npm install -g @angular/cli
+3.Checkout this solution and open the folder in IDE.
+4.Navigate to the application folder and run in the relative path: npm install.
+5.Run ng serve and Enjoy :)
 
 ## Development server
 
