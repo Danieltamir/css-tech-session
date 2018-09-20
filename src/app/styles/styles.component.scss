@@ -1,0 +1,38 @@
+:host {
+  .header {
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .form-control {
+    margin: 1em;
+  }
+
+  .input-container {
+    width: 50%;
+    box-shadow: 1px 0px 7px 2px #007bff;
+    padding-right: 1.5em;
+    margin-top: 3vh;
+    border-radius: 10px;
+    padding-bottom: 1em;
+  }
+
+  .list-container {
+    width: 50%;
+    box-shadow: 1px 1px 1px 1px #316492;
+    border-radius: 7px;
+  }
+
+  .content-background {
+    color: white;
+    padding-top: 3em;
+    text-align: center;
+    background: rgb(208,228,247); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(208,228,247,1) 0%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+}

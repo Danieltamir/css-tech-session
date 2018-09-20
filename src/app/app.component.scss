@@ -1,0 +1,58 @@
+:host {
+  .sub-menu-item {
+    height: 3.5em;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 1.6em;
+    cursor: pointer;
+    padding-top: 1em;
+    font-weight: bold;
+    border-bottom: solid 2px white;
+    font-style: italic;
+    &:hover {
+      background: orange;
+      color:black;
+    }
+  }
+
+  .selected-route {
+    background: orange;
+    color:black;
+  }
+
+  .session-header {
+    background: #316492;
+    height: 10vh;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    -webkit-box-shadow: -1px 3px 3px 1px orange;
+    box-shadow: -1px 3px 3px 1px #316492;
+    border-bottom: solid 3px white;
+  }
+
+  .left-menu {
+    -webkit-box-shadow: 1px 4px 6px 3px #316492;
+    box-shadow: 1px 4px 6px 3px #316492;
+    background: #316492;
+    padding: 0;
+  }
+
+  .logo {
+    width: 11vh;
+    margin-left: 35%;
+    position: absolute;
+    bottom: 14%;
+    opacity: 0.5;
+  }
+
+  .css3-logo {
+    width: 42px;
+    position: absolute;
+    left: 7%;
+    opacity: 0.5;
+    top: 17px;
+  }
+}

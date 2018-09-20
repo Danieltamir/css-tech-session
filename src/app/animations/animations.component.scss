@@ -1,0 +1,57 @@
+.width-transition {
+  width: 100px;
+  height: 100px;
+  background-color: #ee8232;
+  transition: width 2s;
+}
+
+.width-transition:hover {
+  width: 300px;
+}
+
+.font-transition {
+  font-size: 20px;
+  transition: font-size 2s;
+}
+
+.font-transition:hover {
+  font-size: 40px;
+}
+
+.keyframes {
+  width: 100px;
+  height: 100px;
+  background-color: #ee8232;
+}
+
+.keyframes:hover {
+  cursor: pointer;
+  animation-name: keyframesOptions;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+/* Standard syntax */
+@keyframes keyframesOptions {
+  0%   {background-color:red; margin-left:0px}
+  25%  {background-color:yellow; margin-left:200px}
+  50%  {background-color:blue; margin-left:300px}
+  75%  {background-color:green; margin-left:400px}
+  100% {background-color:red; margin-left:500px}
+}
+
+.keyframes-delay {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background-color: #ee8232;
+}
+
+.keyframes-delay:hover {
+  animation-name: keyframesOptions;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+

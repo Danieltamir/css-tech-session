@@ -1,0 +1,65 @@
+:host {
+
+  $font-stack: Helvetica, sans-serif;
+  $primary-color: #333;
+  $circle-radius: 50px;
+  $circle-background: black;
+  $font-size: 12px;
+
+  .class1 {
+    font-size: $font-size;
+  }
+
+  .class2 {
+    font-size: $font-size;
+  }
+
+  .class3 {
+    font-size: $font-size;
+  }
+
+  .class4 {
+    font-size: $font-size;
+  }
+
+  @mixin set-circle-layout($color) {
+    border: solid 2px $color;
+    border-radius: 10px;
+    width: $circle-radius*2;
+    height: $circle-radius*2;
+    margin: 1em;
+    border-radius: 50%;
+    background: $circle-background;
+  }
+
+  .blue-box {
+    @include set-circle-layout(blue);
+  }
+  .red-box {
+    @include set-circle-layout(red);
+  }
+  .yellow-box {
+    @include set-circle-layout(yellow);
+  }
+
+  %message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+  }
+
+  .success {
+    @extend %message-shared;
+    border-color: green;
+  }
+
+  .error {
+    @extend %message-shared;
+    border-color: red;
+  }
+
+  .warning {
+    @extend %message-shared;
+    border-color: yellow;
+  }
+}

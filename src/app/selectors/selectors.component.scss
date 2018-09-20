@@ -1,0 +1,37 @@
+:host {
+
+  #specific-style {
+    color: red;
+  }
+
+  .selectors{
+    width: 18%;
+    background: orange;
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .selectors:hover {
+    background: red;
+  }
+
+  a:active {
+    background: blue;
+    color:orange;
+    font-size: 2em;
+  }
+
+  input:checked {
+    height: 50px;
+    width: 50px;
+  }
+
+  input:invalid {
+    border: 2px solid red;
+  }
+
+  input {
+    border-radius: 8px;
+  }
+}
